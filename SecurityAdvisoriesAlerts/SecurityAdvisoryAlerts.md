@@ -365,7 +365,7 @@ MailTemplateFooterVar
 
 
 
-Create Rows
+CreateRow input
 ```
             <TR>
             <TD style="padding:10px"><a href="https://app.azure.com/h/@{items('CreateHTMLRows')?['name']}">@{items('CreateHTMLRows')?['name']}</a></TD>
