@@ -1,13 +1,18 @@
-Trigger - Recurrence
+## *Trigger - Recurrence*
+
 ![](images/Recurrence.png)
 
-HTTP Request
+## **HTTP Request**
+
 ![](images/HTTPRequest.png)
 
-ParseReturnedJson
+## **ParseReturnedJson**
+
 ![](images/ParseReturnedJson.png)
 
-`
+
+Schema
+```
 {
     "properties": {
         "count": {
@@ -177,12 +182,15 @@ ParseReturnedJson
     },
     "type": "object"
 }
-`
+```
 
-MailTemplateHeadVar
+## **MailTemplateHeadVar**
+
+
 ![](images/MailTemplateHeadVar.png)
 
-`
+value
+```
 <html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
@@ -344,27 +352,32 @@ MailTemplateFooterVar
 </body>
 
 </html>
-`
+```
 
 
-InitRowsHTMLVar
-![](images/InitRowsHTMLVar.png
+## **InitRowsHTMLVar**
 
-CreateHTMLRows
+![](images/InitRowsHTMLVar.png)
+
+## *CreateHTMLRows*
+
 ![](images/CreateHTMLRows.png)
 
-    Create Rows
 
-    `
+
+Create Rows
+```
             <TR>
             <TD style="padding:10px"><a href="https://app.azure.com/h/@{items('CreateHTMLRows')?['name']}">@{items('CreateHTMLRows')?['name']}</a></TD>
             <TD style="padding:10px">@{items('CreateHTMLRows')?['subscriptionId']}</TD>
             <TD style="padding:10px">@{items('CreateHTMLRows')?['properties']?['Title']}</TD>
         </TR>
-    `                               
+```                              
 
 
 
 
-Send An Email (V2)
+## *Send An Email (V2)*
+
+
 ![](images/SendanEmail.png)
