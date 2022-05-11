@@ -303,13 +303,13 @@ w\:* {behavior:url(#default#VML);}
 <TH style="padding:10px">Affected Subscription</TH>
 <TH style="padding:10px">Title</TH>
 </TR>
-`
+```
 
-
-MailTemplateFooterVar
+## **MailTemplateFooterVar**
 ![](images/MailTemplateFooterVar.png)
 
-`
+value
+```
                   </table>
                             </center>
 
