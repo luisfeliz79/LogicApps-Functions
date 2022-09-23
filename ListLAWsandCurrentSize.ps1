@@ -166,8 +166,8 @@ Function ExecuteLogAnalyticsWorkspaceQuery($LAW,$AuthResult) {
 
 
 
-$Subscription="f263b677-361a-4ec3-91d6-c4e05012c36b"
-$tenant="microsoft.onmicrosoft.com"
+$Subscription="xxxxx"
+$tenant="xxxx"
 
 # First, lets get an access token
 if ($AuthResult.access_token -eq $null) {
